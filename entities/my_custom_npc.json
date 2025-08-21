@@ -7,6 +7,22 @@
       "is_summonable": true
     },
     "components": {
+      "minecraft:behavior.look_at_player": {
+    "priority": 1,
+    "look_distance": 100.0,
+    "look_time": 5
+},
+"minecraft:behavior.look_at_entity": {
+    "priority": 2,
+    "look_distance": 5.0,
+    "look_time": 5,
+    "filters": {
+        "any_of": [
+            {"test": "is_family", "subject": "other", "value": "player"},
+            {"test": "is_family", "subject": "other", "value": "mob"}
+        ]
+    }
+}
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
         "family": [ "npc", "mob" ]
