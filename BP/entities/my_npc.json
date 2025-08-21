@@ -19,7 +19,7 @@
     "identifier": "geometry.villager"
 }
       "minecraft:texture_villager": {
-        "texture": "textures/entity/npc/npc1"
+        "texture": "textures/entity/villager/villager"
       },
       "minecraft:npc": {},
       "minecraft:is_immobile": {},
