@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "header": {
-    "name": "マイカスタムNPCアド-オン",
+    "name": "マイカスタムNPCアドオンBP",
     "description": "自由にいじれるNPCアドオン",
     "uuid": "e8b851a1-7777-09da-c866-6f3134859cf7",
     "version": [1, 0, 0],
