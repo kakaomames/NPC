@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "npc:npc2_spawn_egg",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§bNPCのスポーンエッグ"
+      },
+      "minecraft:icon": {
+        "textures": "textures/items/spawn_egg"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.spawnEgg"
+      },
+      "minecraft:entity_placer": {
+        "entity": "npc:npc2"
+      }
+    }
+  }
+}
