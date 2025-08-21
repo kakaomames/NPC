@@ -1,0 +1,51 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "wiki:custom_npc",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:type_family": {
+        "family": [ "npc", "mob" ]
+      },
+      "minecraft:nameable": {
+        "allow_name_tag_renaming": true,
+        "always_show": true
+      },
+      "minecraft:dialogue": {
+        "scenes": [
+          {
+            "scene_id": "default",
+            "npc_name": "§l§e動くNPC",
+            "text": "", // JSONでは空にする
+            "buttons": [] // JSONでは空にする
+          }
+        ]
+      }
+    },
+    "component_groups": {
+      "dialogue_component": {
+        "minecraft:dialogue": {
+          "scenes": [
+            {
+              "scene_id": "default",
+              "npc_name": "§l§e動くNPC",
+              "text": "",
+              "buttons": []
+            }
+          ]
+        }
+      }
+    },
+    "events": {
+      "minecraft:on_interact": {
+        "add": {
+          "component_groups": ["dialogue_component"]
+        }
+      }
+    }
+  }
+}
