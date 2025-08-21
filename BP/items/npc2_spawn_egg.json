@@ -10,7 +10,7 @@
         "value": "§bNPCのスポーンエッグ"
       },
       "minecraft:icon": {
-        "textures": "textures/items/spawn_egg"
+        "textures": "textures/items/1spawn_egg"
       },
       "minecraft:creative_category": {
         "parent": "itemGroup.name.spawnEgg"
