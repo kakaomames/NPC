@@ -7,22 +7,6 @@
       "is_summonable": true
     },
     "components": {
-      "minecraft:behavior.look_at_player": {
-    "priority": 1,
-    "look_distance": 100.0,
-    "look_time": 5
-},
-"minecraft:behavior.look_at_entity": {
-    "priority": 2,
-    "look_distance": 5.0,
-    "look_time": 5,
-    "filters": {
-        "any_of": [
-            {"test": "is_family", "subject": "other", "value": "player"},
-            {"test": "is_family", "subject": "other", "value": "mob"}
-        ]
-    }
-}
       "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
         "family": [ "npc", "mob" ]
@@ -31,13 +15,55 @@
         "allow_name_tag_renaming": true,
         "always_show": true
       },
+      "minecraft:geometry": {
+        "identifier": "geometry.villager"
+      },
+      "minecraft:texture_villager": {
+        "texture": "textures/entity/villager/villager"
+      },
+      "minecraft:npc": {},
+      "minecraft:is_immobile": {},
+      "minecraft:physics": {},
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_open_doors": true
+      },
+      "minecraft:lookat": {
+        "filters": {
+          "any_of": [
+            { "test": "is_family", "subject": "other", "value": "player" },
+            { "test": "is_family", "subject": "other", "value": "mob" }
+          ]
+        },
+        "set_target": true
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 1,
+        "look_distance": 100.0,
+        "look_time": 5
+      },
+      "minecraft:behavior.look_at_entity": {
+        "priority": 2,
+        "look_distance": 5.0,
+        "look_time": 5,
+        "filters": {
+          "any_of": [
+            { "test": "is_family", "subject": "other", "value": "player" },
+            { "test": "is_family", "subject": "other", "value": "mob" }
+          ]
+        }
+      },
       "minecraft:dialogue": {
         "scenes": [
           {
             "scene_id": "default",
             "npc_name": "§l§e動くNPC",
             "text": "",
-            "buttons": [] 
+            "buttons": []
           }
         ]
       }
