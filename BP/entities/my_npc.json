@@ -15,11 +15,11 @@
         "allow_name_tag_renaming": true,
         "always_show": true
       },
-      "minecraft:geometry": {
-        "identifier": "geometry.villager"
-      },
+"minecraft:geometry": {
+    "identifier": "geometry.villager"
+}
       "minecraft:texture_villager": {
-        "texture": "textures/entity/villager/villager"
+        "texture": "textures/entity/npc/npc1"
       },
       "minecraft:npc": {},
       "minecraft:is_immobile": {},
