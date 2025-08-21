@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "header": {
-    "name": "My Custom NPC Addon",
+    "name": "マイカスタムNPCアドオン",
     "description": "自由にいじれるNPCアドオン",
     "uuid": "e8b851a1-7777-09da-c866-6f3134859cf6",
     "version": [1, 0, 0],
