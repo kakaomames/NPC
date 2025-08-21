@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "wiki:custom_npc",
+      "identifier": "npc:npc2",
       "is_spawnable": true,
       "is_summonable": true
     },
@@ -20,8 +20,8 @@
           {
             "scene_id": "default",
             "npc_name": "§l§e動くNPC",
-            "text": "", // JSONでは空にする
-            "buttons": [] // JSONでは空にする
+            "text": "",
+            "buttons": [] 
           }
         ]
       }
