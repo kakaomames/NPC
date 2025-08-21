@@ -3,14 +3,14 @@
   "header": {
     "name": "My Custom NPC Addon",
     "description": "自由にいじれるNPCアドオン",
-    "uuid": "8b958d31-88d1-8521-ea10-44a6bfd8b974",
+    "uuid": "e8b851a1-7777-09da-c866-6f3134859cf6",
     "version": [1, 0, 0],
     "min_engine_version": [1, 16, 0]
   },
   "modules": [
     {
       "type": "data",
-      "uuid": "77ab76d5-2f8a-7ac4-a67a-5bf0afc49458",
+      "uuid": "acbfd797-6c86-f9f8-2461-f7dd4d766fe7",
       "version": [1, 0, 0]
     }
   ]
