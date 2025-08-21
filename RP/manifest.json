@@ -3,7 +3,7 @@
   "header": {
     "name": "マイカスタムNPCアドオンRP",
     "description": "自由にいじれるNPCアドオン",
-    "uuid": "e8b851a1-7777-09da-c866-6f3134859cf8",
+    "uuid": "e8b851a1-7777-09da-c866-6f3134859cf0",
     "version": [1, 0, 0],
     "min_engine_version": [1, 16, 0]
   },
